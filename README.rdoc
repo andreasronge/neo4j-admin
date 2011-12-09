@@ -1,0 +1,27 @@
+== What
+
+Starts a webserver using an embedded neo4j graph database.
+
+== Why
+
+Because we need to admin and visualize the graph database
+
+== How
+
+Using the neo4j server jars to start up an jetty web server.
+
+Starts up a jetty web server.
+
+== Usage
+
+It should be possible to use this from a rails project. Maybe as an initializer, or is there a better way ?
+
+
+I also want it to work standalone:
+
+  neo4j-admin <storage_path>
+
+== Status
+
+Not ready to be used !
+It should be available as a gem.
