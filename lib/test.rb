@@ -11,7 +11,9 @@ puts "start server"
 srv = org.neo4j.server.WrappingNeoServerBootstrapper.new(graphdb)
 srv.start
 puts "SLEEP"
-sleep(180)
+while(true)
+  sleep(180)
+end
 puts "WAKE UP"
 puts "Wait"
 # The server is now running
