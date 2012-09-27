@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "neo4j-admin"
-  s.version  = '0.1.0'
+  s.version  = '0.2.0'
   s.platform = 'java'
   s.required_ruby_version = ">= 1.8.7"
 
