@@ -17,4 +17,5 @@ rails initialization is completed.
   s.require_path = 'lib'
   s.files = Dir.glob("{lib}/**/*") + %w(README.rdoc CHANGELOG Gemfile neo4j-admin.gemspec)
   s.has_rdoc = false
+  s.add_dependency("neo4j-community", '>= 1.8.RC1', '< 1.9')
 end

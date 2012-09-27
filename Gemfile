@@ -1,1 +1,4 @@
-gem 'neo4j'
+source :gemcutter
+
+gemspec
+

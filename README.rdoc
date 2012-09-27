@@ -19,6 +19,15 @@ In your config/application.rb:
 
 This will start the neo4j server at http://localhost:7474 using the same database instance as your rails app.
 
+For a complete example, see the test/myapp folder
+
+
+== Known Issues
+
+The Cypher Console does not work on JRuby 1.7.x because a missmatch of JARs (jline.Terminal seems to be used by both JRuby and Neo4j)
+
+  java.lang.IncompatibleClassChangeError: Found interface jline.Terminal, but class was expected
+
 == Todo
 
 I also want it to work standalone:
