@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "neo4j-admin"
-  s.version  = '0.2.0'
+  s.version  = '0.2.1'
   s.platform = 'java'
   s.required_ruby_version = ">= 1.8.7"
 
@@ -17,5 +17,5 @@ rails initialization is completed.
   s.require_path = 'lib'
   s.files = Dir.glob("{lib}/**/*") + %w(README.rdoc CHANGELOG Gemfile neo4j-admin.gemspec)
   s.has_rdoc = false
-  s.add_dependency("neo4j-community", '>= 1.8.RC1', '< 1.9')
+  s.add_dependency("neo4j-community", '>= 1.8.2', '< 1.9')
 end
