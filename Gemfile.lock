@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    neo4j-admin (0.2.0-java)
-      neo4j-community (>= 1.8.RC1, < 1.9)
+    neo4j-admin (0.2.1-java)
+      neo4j-community (>= 1.8.2, < 1.9)
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
-    neo4j-community (1.8.RC1-java)
+    neo4j-community (1.8.2-java)
 
 PLATFORMS
   java
